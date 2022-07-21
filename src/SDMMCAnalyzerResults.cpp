@@ -235,7 +235,7 @@ case FRAMETYPE_COMMAND:
 				AnalyzerHelpers::GetNumberString(forced, display_base, 4, str_forced, sizeof(str_forced));
 				AnalyzerHelpers::GetNumberString(num_blocks, display_base, 4, str_num_blocks, sizeof(str_num_blocks));
 
-				sprintf(str_buf, ", arg=%s, rwritereq=%s, tagreq=%s, ctx_id=%s, forced=%s, num_blocks=%s", str_arg, str_rwritereq, str_tagreq, str_ctx_id, str_forced, num_blocks);
+				sprintf(str_buf, ", arg=%s, rwritereq=%s, tagreq=%s, ctx_id=%s, forced=%s, num_blocks=%s", str_arg, str_rwritereq, str_tagreq, str_ctx_id, str_forced, str_num_blocks);
 			}
 			break;}
 		case 38: //ERASE
